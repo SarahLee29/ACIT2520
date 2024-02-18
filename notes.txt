@@ -1,0 +1,25 @@
+1.main is just to call functions
+2.unzipped should be exiting before submmiting 
+
+example for pngjs:
+
+png compress image and have a small size
+pngjs is a transform stream, taking huge raw bytes and transform to an array of pixels
+
+call three times for every single image
+
+read->transform->on function access all pixels 
+this refers to png image
+idx is the index of pixel, the start point is left top corner [0]
+data is the array of all pixels
+R
+G
+B
+three vara represent one single pixel(the only place to be modified)
+ingore the opacity line
+after modify eh tiem inside png container, we need to package them back
+
+
+bonus;
+multithreading, import workerthredds
+choose filter options

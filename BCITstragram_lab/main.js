@@ -1,5 +1,6 @@
 const path = require("path");
 /*
+*
  * Project: Milestone 1
  * File Name: main.js
  * Description:  users are allowed to filter images based on grayscaled, sepiaTone, and blur
